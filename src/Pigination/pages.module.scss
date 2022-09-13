@@ -1,0 +1,30 @@
+.pages{
+  display: flex;
+}
+
+.page{
+  border: 1px solid #7e7e7e;
+  padding: 12px 14px;
+  margin-right: 7px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &:hover{
+    border: 1px solid;
+    color: white;
+    background-color: #fe5f1e;
+  }
+
+  &_active{
+    border: 1px solid #fe5f1e;
+    padding: 12px 14px;
+  margin-right: 7px;
+    color: white;
+    color: #fe5f1e;
+  }
+}
+
+
+

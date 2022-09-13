@@ -1,0 +1,47 @@
+
+.root{
+  position: relative;
+  left: -100px;
+}
+
+.input {
+  border: 1px solid rgb(0, 0, 0, 0.1);
+  background-color: rgb(252, 252, 252);
+  padding: 12px 20px;
+  width: 400px;
+  border-radius: 7px;
+  font-size: 16px;
+  padding-left: 45px;
+  transition: all 0.17s ease-in;
+
+  &:focus{
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    width: 450px;
+  }
+}
+
+.icon{
+  position: absolute;
+  opacity: 0.5;
+  width: 25px;
+  height: 25px;
+  top: 12px;
+  left: 12px;
+}
+
+.xbtn{
+  cursor: pointer;
+  margin-left: 10px ;
+  padding: 6px 12px;
+  background-color: white;
+  border: 1px solid #7e7e7e;
+  text-align: center;
+  transition: all 0.1s ease-out;
+
+  &:active {
+    border: none;
+    background-color: #fe5f1e;
+    color: white;
+    padding: 4px 8px;
+  }
+}
